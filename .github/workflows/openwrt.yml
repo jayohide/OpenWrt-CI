@@ -66,6 +66,7 @@ jobs:
           git clone https://github.com/rosywrt/luci-theme-rosy
           git clone https://github.com/destan19/OpenAppFilter.git
           git clone https://github.com/Lienol/openwrt-package.git
+          git clone https://github.com/fangli/openwrt-vm-tools
       - name: Update feeds
         run: |
           ./scripts/feeds update -a
