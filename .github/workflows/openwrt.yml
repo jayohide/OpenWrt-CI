@@ -67,7 +67,7 @@ jobs:
           git clone https://github.com/destan19/OpenAppFilter.git
           git clone https://github.com/jayohide/lienol.git
           git clone https://github.com/fangli/openwrt-vm-tools
-          git clone https://github.com/sirpdboy/netspeedtest.git
+          git clone https://github.com/sirpdboy/netspeedtest
       - name: Update feeds
         run: |
           ./scripts/feeds update -a
