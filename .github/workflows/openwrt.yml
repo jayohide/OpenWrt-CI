@@ -65,7 +65,7 @@ jobs:
           git clone https://github.com/godros/luci-app-godproxy.git
           git clone https://github.com/rosywrt/luci-theme-rosy
           git clone https://github.com/destan19/OpenAppFilter.git
-          git clone https://github.com/Lienol/openwrt-package.git
+          git clone https://github.com/jayohide/lienol.git
           git clone https://github.com/fangli/openwrt-vm-tools
           git clone https://github.com/sirpdboy/netspeedtest.git
       - name: Update feeds
